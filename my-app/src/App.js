@@ -5,6 +5,7 @@ import DragAndDrop from './DragAndDrop';
 import React, { useState } from "react";
 
 function App() {
+
   const [selectedDisease, setSelectedDisease] = useState("Acne");
 
   const handleChange = (event) => {
