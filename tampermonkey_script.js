@@ -76,10 +76,6 @@
   if (copyi) {
      copyi.style.display = 'none';
   }
-  const negPrompt = document.getElementById('img2img_prompt_container');
-  if (negPrompt){
-     negPrompt.style.display = 'none';
-  }
   const sideUpper2 = document.querySelector("block gradio-radio svelte-mppz8v padded");
   if (sideUpper2) {
       sideUpper2.style.display = 'none';
@@ -115,22 +111,37 @@
     };
 
    function replaceTextareaContentEarly() {
-      const textarea = document.querySelector('#component-187 textarea');
-      if (textarea) {
-         textarea.value = "a photo of a person with xbvcewq, close-up";
-      }
+      // const textarea = document.querySelector('#component-187 textarea');
+      // if (textarea) {
+      //    textarea.value = "a photo of a person with xbvcewq, close-up";
+      // }
+      const textToCopy = "a photo of a person with xbvcewq, close-up";
+      navigator.clipboard.writeText(textToCopy)
+      .then(() => console.log('Text copied to clipboard'))
+      .catch(err => console.error('Could not copy text: ', err));
    }
    function replaceTextareaContentMiddle() {
-      const textarea = document.querySelector('#component-187 textarea');
-      if (textarea) {
-         textarea.value = "a photo of a person with bfdsewf, close-up";
-      }
+      // const textarea = document.querySelector('#component-187 textarea');
+      // if (textarea) {
+      //    textarea.focus(); // Give the textarea focus
+      //    textarea.click();
+      //    textarea.value = "a photo of a person with bfdsewf, close-up";
+      //    textarea.blur();
+      // }
+      const textToCopy = "a photo of a person with bfdsewf, close-up";
+      navigator.clipboard.writeText(textToCopy)
+      .then(() => console.log('Text copied to clipboard'))
+      .catch(err => console.error('Could not copy text: ', err));
    }
    function replaceTextareaContentLate() {
-      const textarea = document.querySelector('#component-187 textarea');
-      if (textarea) {
-         textarea.value = "a photo of a person with exfxzjpe, close-up";
-      }
+      // const textarea = document.querySelector('#component-187 textarea');
+      // if (textarea) {
+      //    textarea.value = "a photo of a person with exfxzjpe, close-up";
+      // }
+      const textToCopy = "a photo of a person with exfxzjpe, close-up";
+      navigator.clipboard.writeText(textToCopy)
+      .then(() => console.log('Text copied to clipboard'))
+      .catch(err => console.error('Could not copy text: ', err));
    }
 
 
