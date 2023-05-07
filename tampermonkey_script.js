@@ -3,7 +3,7 @@
 // @namespace    my-custom-namespace
 // @version      1
 // @description  Adds buttons and a dropdown menu, and removes unwanted buttons from a custom webpage
-// @match        http://localhost:7860/*
+// @match        http://localhost:7861/*
 // @grant        none
 // ==/UserScript==
 
@@ -23,8 +23,8 @@
     }
   });
   function replaceTextareaContent() {
-        const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
-        if (textarea) {
+      const textarea = document.querySelector('#component-187 textarea');
+      if (textarea) {
             textarea.value = "abcdefg";
         }
 
@@ -115,19 +115,19 @@
     };
 
    function replaceTextareaContentEarly() {
-      const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
+      const textarea = document.querySelector('#component-187 textarea');
       if (textarea) {
          textarea.value = "a photo of a person with xbvcewq, close-up";
       }
    }
    function replaceTextareaContentMiddle() {
-      const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
+      const textarea = document.querySelector('#component-187 textarea');
       if (textarea) {
          textarea.value = "a photo of a person with bfdsewf, close-up";
       }
    }
    function replaceTextareaContentLate() {
-      const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
+      const textarea = document.querySelector('#component-187 textarea');
       if (textarea) {
          textarea.value = "a photo of a person with exfxzjpe, close-up";
       }
