@@ -13,7 +13,7 @@ Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
 ![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Lupus/lupus.jpeg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
 :-------------------------:|:-------------------------|:-------------------------:|:-------------------------:
- Base Image    | Actual Lupus Presence |  Lupus Presence by our Model     |  Lupus Presence by Stable Diffusion
+ Base Image    | Actual Lupus Butterfly rash |  Lupus Butterfly rash predicted by our Model     |  Lupus Butterfly rash predicted by Stable Diffusion
 
 ## Implementation
 
