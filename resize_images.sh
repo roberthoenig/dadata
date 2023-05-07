@@ -20,7 +20,7 @@ for image in "$INPUT_FOLDER"/*.{jpg,png,jpeg,JPG,PNG,JPEG}; do
         # Get the base file name
         FILENAME=$(basename "$image")
         # Resize the image and save it to the output folder
-        convert "$image" -resize 768x768\> -quality 90 -gravity center -extent 768x768 "${OUTPUT_FOLDER}/${FILENAME}"
+        convert "$image" -resize 768x768/> -quality 90 -gravity center -extent 768x768 "${OUTPUT_FOLDER}/${FILENAME}"
     fi
 done
 
