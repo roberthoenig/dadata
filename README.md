@@ -2,7 +2,7 @@
   <img src="Frederieke/Loho.png" />
 </p>
 
-# Visually Explaining Progression of Skin Conditions
+# TrueSkin: Accurately Visualizing Skin Conditions
 
 Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
@@ -11,9 +11,9 @@ Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
  Acne early stage     |  Actual acne growth      |  Acne growth prediction by our model      |  Acne growth prediction by StableDiffusion
 
 
-![Image 1](Frederieke/lups_base.jpeg) | ![Image 2](Frederieke/lups_pred.jpeg) | ![Image 3](Frederieke/lupus_stable.jpeg)
-:-------------------------:|:-------------------------:|:-------------------------:
- Base Image    |  Lupus Butterfly Rash by our Model     |  Lupus Butterfly Rash by Stable Diffusion
+![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Acne_progression/Lupus/4Rash.jpg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
+:-------------------------:|:-------------------------|:-------------------------:|:-------------------------:
+ Base Image    | Actual Lupus Presence |  Lupus Presence by our Model     |  Lupus Presence by Stable Diffusion
 
 
 ## Web UI
