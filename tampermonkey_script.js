@@ -114,8 +114,25 @@
   }
     };
 
- function replaceUpperBar() {
-};
+   function replaceTextareaContentEarly() {
+      const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
+      if (textarea) {
+         textarea.value = "a photo of a person with xbvcewq, close-up";
+      }
+   }
+   function replaceTextareaContentMiddle() {
+      const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
+      if (textarea) {
+         textarea.value = "a photo of a person with bfdsewf, close-up";
+      }
+   }
+   function replaceTextareaContentLate() {
+      const textarea = document.querySelector('textarea.scroll-hide.svelte-1pie7s6');
+      if (textarea) {
+         textarea.value = "a photo of a person with exfxzjpe, close-up";
+      }
+   }
+
 
   const buttonContainer = document.createElement('div');
   buttonContainer.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; padding: 10px; display: flex; border-radius: 10px; background-color: white; z-index: 999;';
@@ -123,13 +140,16 @@
   earlyButton.textContent = 'Early Acne';
   earlyButton.style.cssText = 'border-radius: 5px; padding: 10px; margin-right: 10px;';
   buttonContainer.appendChild(earlyButton);
+  earlyButton.addEventListener('click', replaceTextareaContentEarly);
   const middleButton = document.createElement('button');
   middleButton.textContent = 'Late Acne';
   middleButton.style.cssText = 'border-radius: 5px; padding: 10px; margin-right: 10px;';
+  middleButton.addEventListener('click', replaceTextareaContentMiddle);
   buttonContainer.appendChild(middleButton);
   const lateButton = document.createElement('button');
   lateButton.textContent = 'Lupus';
   lateButton.style.cssText = 'border-radius: 5px; padding: 10px;';
+  lateButton.addEventListener('click', replaceTextareaContentLate);
   buttonContainer.appendChild(lateButton);
   const body = document.querySelector('body');
   body.insertBefore(buttonContainer, body.firstChild);
