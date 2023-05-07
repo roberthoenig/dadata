@@ -1,3 +1,4 @@
+![Image 1](Frederieke/Loho.png)
 
 # Visually Explaining Progression of Skin Conditions
 
