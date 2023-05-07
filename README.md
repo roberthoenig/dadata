@@ -1,5 +1,5 @@
 
-# Explaining Progression of Skin Conditions
+# Visually Explaining Progression of Skin Conditions
 
 Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
