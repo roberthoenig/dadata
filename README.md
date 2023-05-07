@@ -2,29 +2,18 @@
   <img src="Frederieke/Loho.png" />
 </p>
 
-# Visually Explaining Progression of Skin Conditions
+# TrueSkin: Accurately Visualizing Skin Conditions
 
 Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
-<div align="center">
-  <img src="Frederieke/11Late.png" width="20%" alt="Acne early stage ">
-  Acne early stage 
-  <img src="Frederieke/mid.jpg" width="20%" alt="Actual acne growth">
-  Actual acne growth
-  <img src="Frederieke/fredericke_pred.png" width="20%" alt="Acne growth prediction by our model ">
-  Acne growth prediction by our model 
-  <img src="Frederieke/frederieke_pred_not_tuned.jpg" width="20%" alt="Acne growth prediction by StableDiffusion">
-  Acne growth prediction by StableDiffusion"
-</div>
+![Image 1](Frederieke/11Late.png) | ![Image 2](Frederieke/mid.jpg) | ![Image 3](Frederieke/fredericke_pred.png)  | ![Image 4](Frederieke/frederieke_pred_not_tuned.jpg)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+ Acne early stage     |  Actual acne growth      |  Acne growth prediction by our model      |  Acne growth prediction by StableDiffusion
 
-<div align="center">
-  <img src="Frederieke/lups_base.jpeg" width="20%" alt=" Base Image ">
-  Base Image 
-  <img src="Frederieke/lups_pred.jpeg" width="20%" alt="Lupus Butterfly Rash by our Model ">
-  Lupus Butterfly Rash by our Model "
-  <img src="Frederieke/lupus_stable.jpeg" width="20%" alt="Lupus Butterfly Rash by Stable Diffusion">
-  Lupus Butterfly Rash by Stable Diffusion
-</div>
+
+![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Acne_progression/Lupus/4Rash.jpg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
+:-------------------------:|:-------------------------|:-------------------------:|:-------------------------:
+ Base Image    | Actual Lupus Presence |  Lupus Presence by our Model     |  Lupus Presence by Stable Diffusion
 
 
 ## Web UI
