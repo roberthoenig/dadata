@@ -6,18 +6,24 @@
 
 Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
-<<<<<<< HEAD
 <div align="center">
   <img src="Frederieke/11Late.png" width="20%" alt="Acne early stage ">
+  Acne early stage 
   <img src="Frederieke/mid.jpg" width="20%" alt="Actual acne growth">
+  Actual acne growth
   <img src="Frederieke/fredericke_pred.png" width="20%" alt="Acne growth prediction by our model ">
+  Acne growth prediction by our model 
   <img src="Frederieke/frederieke_pred_not_tuned.jpg" width="20%" alt="Acne growth prediction by StableDiffusion">
+  Acne growth prediction by StableDiffusion"
 </div>
 
 <div align="center">
   <img src="Frederieke/lups_base.jpeg" width="20%" alt=" Base Image ">
+  Base Image 
   <img src="Frederieke/lups_pred.jpeg" width="20%" alt="Lupus Butterfly Rash by our Model ">
+  Lupus Butterfly Rash by our Model "
   <img src="Frederieke/lupus_stable.jpeg" width="20%" alt="Lupus Butterfly Rash by Stable Diffusion">
+  Lupus Butterfly Rash by Stable Diffusion
 </div>
 
 
