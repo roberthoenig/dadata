@@ -1,4 +1,6 @@
-![Image 1](Frederieke/Loho.png)
+<p align="center">
+  <img src="Frederieke/Loho.png" />
+</p>
 
 # Visually Explaining Progression of Skin Conditions
 
