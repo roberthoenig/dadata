@@ -6,6 +6,7 @@
 
 Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
+<<<<<<< HEAD
 <div align="center">
   <img src="Frederieke/11Late.png" width="20%" alt="Acne early stage ">
   <img src="Frederieke/mid.jpg" width="20%" alt="Actual acne growth">
