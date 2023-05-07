@@ -4,16 +4,15 @@
 
 # TrueSkin: Accurately Visualizing Skin Conditions
 
-Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
-
-![Image 1](Frederieke/11Late.png) | ![Image 2](Frederieke/mid.jpg) | ![Image 3](Frederieke/fredericke_pred.png)  | ![Image 4](Frederieke/frederieke_pred_not_tuned.jpg)
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
- Acne late stage     |  Actual acne early stage      |  Acne early stage prediction by our model      |  Acne early stage prediction by StableDiffusion
-
-
 ![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Lupus/lupus.jpeg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
 :-------------------------:|:-------------------------|:-------------------------:|:-------------------------:
  Base Image    | Actual Lupus Butterfly rash |  Lupus Butterfly rash predicted by our Model     |  Lupus Butterfly rash predicted by Stable Diffusion
+
+
+![Image 1](Frederieke/12Late.png) | ![Image 2](Frederieke/mid.jpg) | ![Image 3](Frederieke/fredericke_pred.png)  | ![Image 4](Frederieke/frederieke_pred_not_tuned.jpg)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+ Base image     |  Actual acne early stage      |  Acne early stage prediction by our model      |  Acne early stage prediction by StableDiffusion
+
 
 ## Implementation
 
