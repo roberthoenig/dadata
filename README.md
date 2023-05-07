@@ -11,7 +11,7 @@ Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
   <img src="Frederieke/11Late.png" width="20%" alt="Acne early stage ">
   <img src="Frederieke/mid.jpg" width="20%" alt="Actual acne growth">
   <img src="Frederieke/fredericke_pred.png" width="20%" alt="Acne growth prediction by our model ">
-  <img src="Frederieke/frederieke_pred_not_tuned.jpg)" width="20%" alt="Acne growth prediction by StableDiffusion">
+  <img src="Frederieke/frederieke_pred_not_tuned.jpg" width="20%" alt="Acne growth prediction by StableDiffusion">
 </div>
 
 <div align="center">
