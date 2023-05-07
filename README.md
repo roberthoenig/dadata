@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Frederieke/Loho.png" />
+</p>
 
 # Visually Explaining Progression of Skin Conditions
 
