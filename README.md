@@ -3,7 +3,7 @@
 
 Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
-![Image 1](Frederieke/11Late.png =100x100) | ![Image 2](Frederieke/mid.jpg =100x100) | ![Image 3](Frederieke/fredericke_pred.png =100x100)
+![Image 1](Frederieke/11Late.png) | ![Image 2](Frederieke/mid.jpg) | ![Image 3](Frederieke/fredericke_pred.png)
 :-------------------------:|:-------------------------:|:-------------------------:
  Acne early stage     |  Actual acne growth      |  Acne growth prediction by our model
 
