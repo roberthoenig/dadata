@@ -17,7 +17,7 @@ Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
 ## Implementation
 
-## Dataset
+### Dataset
 
 We manually collect data samples of the skin diseases  Acne at different stages and Lupus. They are saved in `Acne_progression` and `Lupus`, respectively.
 
