@@ -8,7 +8,7 @@ Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
  Acne early stage     |  Actual acne growth      |  Acne growth prediction by our model      |  Acne growth prediction by StableDiffusion
 
 
-![Image 1](Frederieke/lups_base.jpeg) | ![Image 2](Frederieke/lups_pred.jpeg) | ![Image 3](Frederieke/lups_stable.jpeg)
+![Image 1](Frederieke/lups_base.jpeg) | ![Image 2](Frederieke/lups_pred.jpeg) | ![Image 3](Frederieke/lupus_stable.jpeg)
 :-------------------------:|:-------------------------:|:-------------------------:
  Base Image    |  Lupus Presence by our Model     |  Lupus Presence by Stable Diffusion
 
