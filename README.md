@@ -4,6 +4,13 @@
 
 # TrueSkin: Accurately Visualizing Skin Conditions
 
+Healthcare practitioners benefit from accurate skin disease modeling. Unfortunately, vanilla Stable Diffusion fails to suggest medically plausible visualizations.
+
+TrueSkin addresses this problem by finetuning Stable Diffusion with textual inversion on manually collected
+datasets of skin conditions.
+
+The finetuning takes minutes, the prediction seconds. The results outperform vanilla Stable Diffusion in medical realism.
+
 ![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Lupus/lupus.jpeg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
 :-------------------------:|:-------------------------|:-------------------------:|:-------------------------:
  Base Image    | Actual Lupus Butterfly rash |  Lupus Butterfly rash predicted by our Model     |  Lupus Butterfly rash predicted by Stable Diffusion
