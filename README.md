@@ -8,15 +8,36 @@ Inpainting with Stable Diffusion fine-tuned on common and rare skin conditions.
 
 ![Image 1](Frederieke/11Late.png) | ![Image 2](Frederieke/mid.jpg) | ![Image 3](Frederieke/fredericke_pred.png)  | ![Image 4](Frederieke/frederieke_pred_not_tuned.jpg)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
- Acne early stage     |  Actual acne growth      |  Acne growth prediction by our model      |  Acne growth prediction by StableDiffusion
+ Acne late stage     |  Actual acne early stage      |  Acne early stage prediction by our model      |  Acne early stage prediction by StableDiffusion
 
 
-![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Acne_progression/Lupus/4Rash.jpg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
+![Image 1](Frederieke/lups_base.jpeg) |  ![Image 2](Lupus/lupus.jpeg) | ![Image 3](Frederieke/lupus_pred.jpeg) | ![Image 4](Frederieke/lupus_stable.jpeg)
 :-------------------------:|:-------------------------|:-------------------------:|:-------------------------:
  Base Image    | Actual Lupus Presence |  Lupus Presence by our Model     |  Lupus Presence by Stable Diffusion
 
+## Implementation
 
-## Web UI
+### Finetuning
+
+We want to accurately visualize skin conditions on people's faces.
+
+To this end, we apply [textual inversion](https://arxiv.org/abs/2208.01618) with Stable Diffusion
+to finetune new text embeddings for skin conditions such as acne or Lupus.
+
+We deploy https://github.com/AUTOMATIC1111/stable-diffusion-webui for the finetuning.
+
+A detailed overview of textual inversion in `stable-diffusion-webui` is given here:
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Textual-Inversion.
+
+Our model uses the following hyperparamters:
+* Embedding length: 2 tokens.
+* Embedding learning rate: 0.005.
+* Batch size: 2.
+* Prompt template: See prompt_template.txt.
+* Train for 500 - 4000 steps, stop when samples of sufficient quality are produced.
+
+
+### Web UI
 
 Our WebUI is an adapted version of the one present in https://github.com/AUTOMATIC1111/stable-diffusion-webui. To install and run our code, follow the following steps:
 
@@ -26,17 +47,6 @@ Our WebUI is an adapted version of the one present in https://github.com/AUTOMAT
 4) Add the script `tampermonkey_js` to your browser of choice, and click on the button `Replace Textarea Content`
 5) Generate new images!
 
-
-## Finetuning details
-
-We fine-tune new embeddings through textual inversion:
-
-1. We follow the textual inversion technique explained here: https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Textual-Inversion
-2. The embeddings have 2 tokens.
-3. Set the learning rate for the embeddings to 0.005.
-4. The batch size is 2.
-5. Use the prompt template provided in prompt_template.txt file.
-6. The training process involves 500-4000 steps.
-
-
-
+<p align="center">
+  <img src="readme_pics/webinterface.png" />
+</p>
